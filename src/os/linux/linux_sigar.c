@@ -25,6 +25,7 @@
 #include <sys/times.h>
 #include <sys/types.h>
 #include <sys/utsname.h>
+#include <sys/sysmacros.h>
 
 #ifdef __GNU_LIBRARY__
 #include <sys/sysmacros.h>
@@ -34,6 +35,7 @@
 #include "sigar_private.h"
 #include "sigar_util.h"
 #include "sigar_os.h"
+
 
 #define pageshift(x) ((x) << sigar->pagesize)
 
