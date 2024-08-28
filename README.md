@@ -26,7 +26,7 @@ Windows command prompt environment **(Choose one)** :
    
    Make sure to build in a new cmd environment if previously different architecture build was executed in the current cmd to reset the environment variable to default.
    
-   Different versions have different file paths
+   **(Different vs versions have different file paths and file name)**
 
 - Win32 : "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\vcvars32.bat"
   
