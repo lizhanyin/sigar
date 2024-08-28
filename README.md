@@ -3,6 +3,7 @@ This repositories fork from [sigar](https://github.com/hyperic/sigar).
 In this repo I merged most of sigar's PRs and currently use it only for myself.
 
 # Doc
+
 Visit the SIGAR Wiki for documentation, bugs, support, etc.:
 https://sourceforge.net/projects/sigar/files/docs/
 
@@ -20,7 +21,7 @@ Environment：cmake/gcc/vs2015 + Perl 5.8 + JDK 1.8 + Ant 1.9.7.1
 
 Windows command prompt environment:
 
-1) Open the Visual Studio command prompt from the start menu.
+1) Open the Visual Studio command prompt from the start menu.(**Recommend**)
 2) Manually set up the compilation environment
 
    Make sure to build in a new cmd environment if previously different architecture build was executed in the current cmd to reset the environment variable to default.
