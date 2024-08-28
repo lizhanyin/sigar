@@ -130,7 +130,8 @@ static int get_formatted_message(EVENTLOGRECORD *pevlr,
         }
     }
 
-    ptr = wcstok(msgdll, FILESEP);
+    LPWSTR ex;
+    ptr = wcstok(msgdll, FILESEP, &ex);
     while (ptr) {
         HINSTANCE hlib;
 
@@ -150,7 +151,7 @@ static int get_formatted_message(EVENTLOGRECORD *pevlr,
                 break;
             }
         }
-        ptr = wcstok(NULL, FILESEP);
+        ptr = wcstok(NULL, FILESEP, &ex);
     }
 
     if (msgbuf) {

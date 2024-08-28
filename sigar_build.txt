@@ -17,6 +17,17 @@ Go to sigar-1.6\bindings\java and run :
 	a) ant clean
 	b) ant
 OR
+
+4)
+rebuild sigar 1.6.4, vs2015+Perl 5.8 + JDK 1.8 + ant 1.9.7
+
+    a) run into vs2015 x64 command prompt environment.
+    b) change dir into sigar-1.6.4\bindings\java.
+    c) run ant.
+
+    final: sigar-amd64-winnt.dll will be in sigar-1.6.4\bindings\java\sigar-bin\lib
+
+OR
 4) For Visual Studio Solution file creation (note: do not use this as it creates sigar dll without java bindings):
 (To build Visual Studio Configuration files for 32 bit remove 'Win64' from @SET GENERATOR="Visual Studio 12 2013 Win64" in winbuild.bat)
 Run winbuild.bat
