@@ -2,6 +2,7 @@ This repositories fork from [sigar](https://github.com/hyperic/sigar).
 
 In this repo I merged most of sigar's PRs and currently use it only for myself.
 
+# Doc
 Visit the SIGAR Wiki for documentation, bugs, support, etc.:
 https://sourceforge.net/projects/sigar/files/docs/
 
