@@ -19,9 +19,9 @@ Environment：cmake/gcc/vs2015 + Perl 5.8 + JDK 1.8 + Ant 1.9.7.1
 
    - [ant](https://ant.apache.org/)
 
-Windows command prompt environment(Choose one):
+Windows command prompt environment**(Choose one)**:
 
-1) Open the Visual Studio command prompt from the start menu.(**Recommend**)
+1) Open the Visual Studio command prompt from the start menu.**(Recommend)**
 2) Manually set up the compilation environment
 
    Make sure to build in a new cmd environment if previously different architecture build was executed in the current cmd to reset the environment variable to default.
